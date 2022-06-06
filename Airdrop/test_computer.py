@@ -19,8 +19,8 @@ class Test_computer(unittest.TestCase):
         self.assertTrue(pc.download("hh","123"))
 
     def test_register(self):
-        self.assertTrue(pc.register("red", "123"))
-        self.assertTrue(pc.register("pink","123"))
+        self.assertTrue(pc.register("black", "123"))
+        self.assertTrue(pc.register("white","123"))
 
 
 
