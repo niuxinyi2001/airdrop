@@ -20,7 +20,7 @@ class Test_computer(unittest.TestCase):
 
     def test_register(self):
         self.assertTrue(pc.register("red", "123"))
-        self.assertTrue(pc.register("pink,"123"))
+        self.assertTrue(pc.register("pink","123"))
 
 
 
